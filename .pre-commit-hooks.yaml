@@ -1,0 +1,6 @@
+- id: gitleaks-system
+  name: Detect hardcoded secrets
+  description: Detect hardcoded secrets using Gitleaks using external gitleaks install
+  entry: gitleaks protect --verbose --redact --staged
+  language: system
+  pass_filenames: false
